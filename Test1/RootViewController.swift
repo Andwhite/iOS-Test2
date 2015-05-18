@@ -50,6 +50,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
     var modelController: ModelController {
         // Return the model controller object, creating it if necessary.
         // In more complex implementations, the model controller may be passed to the view controller.
+        // My 1st swing comment
         if _modelController == nil {
             _modelController = ModelController()
         }
